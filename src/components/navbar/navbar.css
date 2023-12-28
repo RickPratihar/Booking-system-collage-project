@@ -24,8 +24,10 @@
   }
   
   .logo{
+    font-size: 25px;
     font-weight: 500;
     color: white;
+    text-decoration: none;
     
   }
   
@@ -79,9 +81,14 @@
 
 
 
-  @media screen and (max-width: 600px) {
+  @media only screen and (min-width:480px) and (max-width:600px) {
+    .logo{
+      font-size: 20px;
+    }
+    
     .headerListItem {
-      font-size: 0.8rem;
+      font-size: 1rem;
+      gap: 5px;
  
     }
     .nav-headerList{
@@ -90,11 +97,17 @@
 
     }
     .navContainer{
-      padding-left: 10px;
-    
+      padding-left: 10px;    
     }
     .navbar{
       padding-left: 0px;
     
     }
+    .navButton{
+     font-size: 15px;
+      padding: 5px 8px;
+  
+    }
+   
+
   }

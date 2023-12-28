@@ -131,12 +131,22 @@
 .optionCounterButton:disabled {
   cursor: not-allowed;
 }
-@media screen and (max-width: 600px) {
-    .header-details{
+@media screen and (min-width:480px)  and (max-width:600px) {
+  .header img{
+    width: 100vw;
+    height: 40vh;
+    /* position: absolute; */
+    object-fit: cover;
+}
+  
+  
+  
+  .header-details{
      padding-left: 0.5rem;
     }
     .headercontent{
-      left: -50px;
+      left: -60px;
+      /* top: 120px; */
     }
     .headerTitle{
         font-size:2rem;
@@ -147,26 +157,33 @@
         display: block;
 
     }
+    .headerBtn{
+      font-size: 12px;
+    }
     /* header search section start  */
 
     .headerSearch{
         display: flex;
         align-items: center;
         justify-content: center;
-        left: -50px;
+        left: -70px;
         border-radius: 5px;
         flex-direction: column;
-        width: 90%;
+        width: 89%;
         background-color:#febb02 ;
-        padding: 5px 0px;
+        padding: 5px 10px;
         top: -70px;
       }
-    
+    .headerIcon{
+      font-size: 2rem;
+    }
+
       .headerSearch-sm{
-        width:23rem;
+        width: 31rem;
+        height: 4rem;
       }
       .headerSearchText{
-        font-size: 0.9rem;
+        font-size: 1.2rem;
       }
 
       .headerSearchItem {
@@ -174,22 +191,29 @@
         align-items: center;
         gap: 10px;
         margin-bottom:5px;
-        padding: 10px 90px;
+        padding: 5px 30px;
         padding-top: 10px;
+        font-size: 20px;
+      }
+      .headerSearchItem input{
+        font-size: 1.2rem;
+      }
+      .headerSearchInput{
+        padding: 1rem 5rem;
       }
       .btn2{
-        padding: 10px 150px;
+        padding:1.5rem 14rem;
+        font-size: 20spx;
 
       }
       .calender{
-        padding: 10px 137px;
+        padding: 1rem 12rem;
       }
       .headerdate{
-        width: 6rem;
-        height:17px;
+        width: 7rem;
+        height:2rem;
       }
-      .options{
-        top: 125px;
-        
+      .options {
+        top: 230px;
       }
 }

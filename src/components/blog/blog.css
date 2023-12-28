@@ -70,13 +70,13 @@
 
 .blog-img .special-image{
   width: 30rem;
-  height: 22rem;
+  height: 22.5rem;
   padding-right: 20px;
   
 }
 .blog-content .special-text{
   position: absolute;
-  bottom: -430px;
+  bottom: -410px;
   color: white;
   padding-left: 10px;
   width: 50ch;
@@ -85,7 +85,7 @@
 }
 .blog-content .special-text2{
   position: absolute;
-  bottom: -490px;
+  bottom: -470px;
   color: white;
   padding-left: 10px;
   width: 50ch;
@@ -97,34 +97,47 @@
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width:480px) and (max-width:600px) {
  .secContent{
   flex-wrap: wrap;
  }
  .heading{
    display: flex;
    text-align: center;
+   font-size: 1.8rem;
  }
  .blog-img img{
-  width: 24rem;
+  width: 16rem;
  }
  .blog-img .special-image{
-  width: 25rem;
+  width: 34rem;
   height: 18rem;
   padding-right: 0px;
   
 }
 .blog-content .special-text{
+ display: block;
   position: absolute;
-  bottom: -340px;
+  bottom: -210px;
+  color: rgb(247, 241, 241);
+  
+  font-weight: 900;
+  font-size: 30px;
+}
+.blog-content .special-text2{
+  display: block;
+  position: absolute;
+  bottom: -270px;
   color: white;
   padding-left: 10px;
-  width: 50ch;
-  font-weight: 900;
-  font-size: 25px;
+  font-size: 20px;
 }
 .blog-content{
   padding-bottom: 10px;
+}
+.blog-head a{
+  font-size: 30px;
+  bottom: -40px;
 }
 
 }

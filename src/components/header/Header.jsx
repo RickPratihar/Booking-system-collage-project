@@ -48,6 +48,7 @@ const Header = () => {
             
               <input type="date" className="headerdate" />
             </div>
+            
             <div className="headerSearchItem headerSearch-sm">
               <FontAwesomeIcon icon={faPerson} className="headerIcon" />
               <span

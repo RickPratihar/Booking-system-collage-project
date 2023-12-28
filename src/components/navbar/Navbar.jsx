@@ -14,7 +14,7 @@ const Navbar = ({type}) => {
     <div className="navbar">
       <div className="navContainer">
        {/* <Link> <span className="logo">Rss-Booking.com</span></Link> */}
-       <Link to="/"> <span className="logo">Rss-Booking.com</span></Link>
+       <Link to="/" className="logo"> <span className="logo">Rss-Booking.com</span></Link>
         <div className="navitems">
           <button className="navButton">Register</button>
           <button className="navButton">Login</button>
