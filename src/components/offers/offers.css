@@ -1,0 +1,101 @@
+
+.offer-heading {
+  margin-top: 2%;
+  margin-left: 15.5%;
+  position: absolute;
+  
+}
+.testimonial {
+  /* margin-top: 8%; */
+  margin-left: 40%;
+  position:relative;
+}
+
+.offer-heading h1 {
+  font-size: 1.5rem;
+}
+.offer-heading p {
+  font-size: 0.9rem;
+  color: #5a5a5a;
+}
+
+.offer {
+  margin-top: 20%;
+  display: flex;
+  /* margin-left: 15%; */
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 25px;
+  width: 90%;
+  padding: 20px;
+  border-radius: 10px;
+ 
+}
+
+.tes1{
+  margin-top: 20%;
+  margin-left:39%;
+}
+.tes1 .offer-content{
+  position: absolute;
+}
+.tes1 img{
+width: 90%;
+height:9rem;
+border-radius: 10px;
+}
+
+
+.tes1 .offer-content{
+  padding-left: 40px;
+  padding-top: 20px;
+}
+.tes1 .offer-content h2{
+  color: white;
+}
+.tes1 .offer-content p{
+  color: white;
+}
+
+.offer-imgs {
+  width: 7rem;
+  margin-left: 85px;
+}
+
+.offer-content h2 {
+  font-size: 20px;
+}
+.offer-content p {
+  font-size: 0.9rem;
+  color: #5a5a5a;
+  width: 40ch;
+  padding: 10px 0;
+}
+.offer-btn {
+  padding: 6px 15px;
+}
+
+@media screen and (max-width: 600px) {
+  .offer-heading h1, p{
+    display: none;
+  }
+
+  .slider{
+    display: none;
+  }
+
+  .offer {
+    display: flex;
+    /* margin-left: 15%; */
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 25px;
+    width: 160%;
+    padding: 20px;
+    border-radius: 10px;
+   
+  }
+  .offer-img {
+    width: 2rem;
+    height: 2rem;
+    margin-left: 20px;
+  
+  }
+ 
+}
